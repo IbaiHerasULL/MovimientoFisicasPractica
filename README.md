@@ -57,7 +57,7 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 (Kinematic agregado al plano para que actue para que actue como superficie)
 
 **Comportamiento**:
-- El cubo permanece en contacto con el plano. La esfera cae hacia el plano y, al tener un material con fricción, puede afectar cómo se mueven y se detienen al chocar.
+- El cubo permanece en contacto con el plano. La esfera cae hacia el plano y, al tener un material con fricción, puede afectar cómo se mueven y se detienen al chocar. En este caso, simplemente colisiona con el cubo y sale dirigida hacia la derecha.
 
 ### Situación 8
 **Descripción**: El plano es físico. El cubo es físico y la esfera no es física y es un Trigger.
