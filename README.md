@@ -64,11 +64,11 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 (Kinematic agregado al plano para que actue para que actue como superficie)
 
 **Comportamiento**:
-- El cubo permanece en contacto con el plano. La esfera, al ser un Trigger, no se mueve ni es afectada por la gravedad, pero puede detectar colisiones con otros objetos.
+- El cubo permanece en contacto con el plano. La esfera, al no ser un objeto físico, no se mueve ni es afectada por la gravedad, pero al ser un Trigger puede detectar colisiones con otros objetos.
 
 ### Situación 9
 **Descripción**: El plano es físico. El cubo es físico y la esfera es física y es un Trigger.
 (Kinematic agregado al plano para que actue para que actue como superficie)
 
 **Comportamiento**:
-- El cubo permanece en contacto con el plano. La esfera, al ser un Trigger, no se ve afectada por la gravedad, pero puede detectar que el cubo la atraviesa sin colisionar físicamente.
+- El cubo permanece en contacto con el plano. La esfera, al ser un Trigger, detecta que el cubo y el plano la atraviesa sin colisionar físicamente.
