@@ -12,6 +12,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 - La esfera no tiene Rigidbody, por lo que no se ve afectada por la gravedad y permanece inmóvil en su posición en el aire.
 - El plano tiene solo un Collider y actúa como una superficie estática que no se mueve, deteniendo al cubo al estar en contacto con él.
 
+![Situación 1](ExperimentandoFisicas/situacion1.png)
+
 ---
 
 ### Situación 2
@@ -21,6 +23,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 - El cubo, en contacto con el plano, no se mueve al inicio porque está sostenido por su Collider.
 - La esfera cae debido a la gravedad, ya que también tiene un Rigidbody, y colisiona con el cubo y el plano, moviéndose como un objeto físico.
 - El plano permanece estático, actuando como una superficie de colisión.
+
+![Situación 2](ExperimentandoFisicas/situacion2.gif)
 
 ---
 
@@ -32,6 +36,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 - La esfera, siendo cinemática, no cae ni se mueve automáticamente, permaneciendo en su posición a menos que se le aplique un movimiento manual.
 - El plano sigue siendo estático y actúa como superficie de colisión.
 
+![Situación 3](ExperimentandoFisicas/situacion3.gif)
+
 ---
 
 ### Situación 4
@@ -42,6 +48,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 - El plano, al no ser Kinematic, también cae junto con los otros objetos. Esto significa que el plano no actúa como una superficie sólida y todos los objetos simplemente se mueven hacia abajo.
 - Este comportamiento es inesperado, ya que normalmente esperarías que el plano actuara como una superficie en la que otros objetos pueden colisionar y detenerse.
 
+![Situación 4](ExperimentandoFisicas/situacion4.gif)
+
 ---
 
 ### Situación 5
@@ -50,6 +58,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 **Comportamiento:**
 - El cubo permanece en contacto con el plano sin moverse, mientras que la esfera cae hacia el plano.
 - La esfera, al ser más masiva, impacta con mayor fuerza contra el cubo y lo empuja con mayor inercia.
+
+![Situación 5](ExperimentandoFisicas/situacion5.gif)
 
 ---
 
@@ -60,6 +70,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 - El cubo permanece en contacto con el plano. La esfera cae y, al ser mucho más masiva, tendrá mayor inercia.
 - La mayor inercia de la esfera provoca que el cubo se desplace más en la colisión.
 
+![Situación 6](ExperimentandoFisicas/situacion6.gif)
+
 ---
 
 ### Situación 7
@@ -67,6 +79,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 
 **Comportamiento:**
 - El cubo permanece en contacto con el plano. La esfera cae hacia el plano y, al tener un material con fricción, puede afectar cómo se mueven y se detienen al chocar. En este caso, simplemente colisiona con el cubo y sale disparada hacia un lado.
+
+![Situación 7](ExperimentandoFisicas/situacion7.gif)
 
 ---
 
@@ -76,6 +90,8 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 **Comportamiento:**
 - El cubo permanece en contacto con el plano. La esfera, al no ser un objeto físico, no se mueve ni es afectada por la gravedad, pero al ser un Trigger, puede detectar colisiones con otros objetos.
 
+![Situación 8](ExperimentandoFisicas/situacion8.gif)
+
 ---
 
 ### Situación 9
@@ -83,5 +99,7 @@ Este documento describe el comportamiento de una escena de Unity con tres objeto
 
 **Comportamiento:**
 - El cubo permanece en contacto con el plano. La esfera, al ser un Trigger, detecta que el cubo y el plano la atraviesan sin colisionar físicamente.
+
+![Situación 9](ExperimentandoFisicas/situacion9.gif)
 
 ---
