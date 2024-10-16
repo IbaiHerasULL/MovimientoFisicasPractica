@@ -5,5 +5,5 @@ Este proyecto se centra en la simulación de física en Unity. Contiene múltipl
 
 ## Contenido
 
-- [Parte 1: Comportamiento de Objetos en Unity](ExperimentandoFisicas/README.md)
+- [Parte 1: Experimentando con la física desde el editor](ExperimentandoFisicas/README.md)
 - [Parte 2: Movimiento - Físicas](PracticaFisicasMovimiento/README.md)
