@@ -1,6 +1,6 @@
 # MovimientoFisicasPractica
 
-## Prueba de Comportamiento de Objetos Físicos en Unity
+## Experimentando con la física desde el editor
 
 Este documento describe el comportamiento de una escena de Unity con tres objetos: un plano, un cubo y una esfera, en diferentes configuraciones de Rigidbody y Collider.
 
