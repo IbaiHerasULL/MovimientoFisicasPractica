@@ -7,12 +7,12 @@ Este repositorio contiene 12 ejercicios realizados en Unity, enfocados en el mov
 ### Ejercicio 1: Campo de Velocidad en el Cubo
 
 - **Descripción**: Se agrega un campo de velocidad al cubo, y se muestra en la consola el producto de la velocidad con los valores de los ejes `Horizontal` y `Vertical` cuando se presionan las flechas de movimiento.
-- **Resultado**: El cubo no se mueve, pero en la consola se muestra correctamente la multiplicación de la velocidad por los valores de los ejes cuando se presionan las teclas de flechas.
+- **Resultado**: El cubo no se mueve, pero en la consola se muestra correctamente la multiplicación de la velocidad por los valores de los ejes cuando se presionan las teclas de flecha.
 
 ### Ejercicio 2: Mapeo de la Tecla "H" para Disparar
 
 - **Descripción**: Se mapea la tecla "H" a una función de disparo.
-- **Resultado**: Cada vez que se presiona la tecla "H", se puede verificar en consola que la acción de disparo está siendo ejecutada.
+- **Resultado**: Cada vez que se presiona la tecla "H", se puede verificar en la consola que la acción de disparo está siendo ejecutada.
 
 ### Ejercicio 3: Movimiento Proporcional con el Tiempo Transcurrido
 
@@ -82,4 +82,3 @@ Este repositorio contiene 12 ejercicios realizados en Unity, enfocados en el mov
   - **Esfera como Trigger**: El cilindro atraviesa la esfera sin colisionar, pero se detectan eventos de trigger.
   - **Cilindro con fricción duplicada**: El cilindro se mueve con mayor dificultad.
   - **Cilindro con fricción reducida**: El cilindro se desplaza más rápido y libremente.
-
