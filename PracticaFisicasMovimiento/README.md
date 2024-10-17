@@ -81,4 +81,4 @@ Este repositorio contiene 12 ejercicios realizados en Unity, enfocados en el mov
   - **Esfera cinemática**: La esfera no responde a colisiones físicas.
   - **Esfera como Trigger**: El cilindro atraviesa la esfera sin colisionar, pero se detectan eventos de trigger.
   - **Cilindro con fricción duplicada**: El cilindro se mueve con mayor dificultad. (Dynamic Friction: 1.2, Static Friction: 1.2)
-  - **Cilindro con fricción reducida**: El cilindro se desplaza más rápido y libremente. (Dynamic Friction: 0.3, Static Friction: 0.3)
+  - **Cilindro con fricción default**: El cilindro se desplaza más rápido y libremente. (Dynamic Friction: 0.6, Static Friction: 0.6)
