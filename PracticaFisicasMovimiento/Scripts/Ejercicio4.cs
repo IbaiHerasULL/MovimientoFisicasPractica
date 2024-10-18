@@ -6,7 +6,8 @@ public class Ejercicio4 : MonoBehaviour
 {
     public float speed = 5f;
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
         // Si el objeto tiene la tag "Cubo", lo movemos con las flechas del teclado
         if (CompareTag("cubo"))

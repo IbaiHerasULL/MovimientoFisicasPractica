@@ -14,7 +14,8 @@ public class Ejercicio12 : MonoBehaviour
         rb = GetComponent<Rigidbody>();  // Obtener el Rigidbody del cilindro
     }
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
         // Movimiento básico con las teclas IJKL
         float moveHorizontal = 0f;

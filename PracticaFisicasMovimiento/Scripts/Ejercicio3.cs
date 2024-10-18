@@ -13,7 +13,8 @@ public class Ejercicio3 : MonoBehaviour
     // Booleano para alternar entre movimiento relativo al sistema local o mundial
     public bool usarSistemaLocal = true; 
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
         
         if (usarSistemaLocal)

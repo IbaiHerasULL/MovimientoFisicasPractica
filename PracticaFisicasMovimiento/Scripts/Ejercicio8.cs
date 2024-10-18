@@ -8,7 +8,8 @@ public class Ejercicio8 : MonoBehaviour
     public Transform esfera;               
     public float rotationSpeed = 200f;     
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
         // Si el objeto es el cubo, gira hacia la posición de la esfera y avanza
         if (CompareTag("cubo"))

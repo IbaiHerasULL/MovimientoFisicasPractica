@@ -9,7 +9,8 @@ public class Ejercicio6 : MonoBehaviour
     // Referencia a esfera
     public Transform esfera;
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
          if (CompareTag("cubo"))
         {

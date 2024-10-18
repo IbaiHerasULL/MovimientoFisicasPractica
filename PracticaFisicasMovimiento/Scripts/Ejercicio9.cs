@@ -6,7 +6,8 @@ public class Ejercicio9 : MonoBehaviour
 {
     public float speed = 5f;
 
-    void Update()
+    //Usamos en evento FixedUpdate para hacer más solidas las interacciones con las físicas
+    void FixedUpdate()
     {
         if (CompareTag("cubo"))
         {
